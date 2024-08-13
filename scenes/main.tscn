@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmmdctqbx08yg"]
+
+[ext_resource type="Texture2D" uid="uid://d38ceuoo614k4" path="res://assets/bg.png" id="1_s4ges"]
+[ext_resource type="PackedScene" uid="uid://jyyittfqjbr3" path="res://player.tscn" id="2_4y8e6"]
+
+[node name="Main" type="Node"]
+
+[node name="Background" type="Sprite2D" parent="."]
+texture = ExtResource("1_s4ges")
+offset = Vector2(432, 384)
+
+[node name="Golis" parent="." instance=ExtResource("2_4y8e6")]
